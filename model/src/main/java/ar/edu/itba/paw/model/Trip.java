@@ -11,7 +11,8 @@ public class Trip {
     private Calendar startDate;
     private Calendar endDate;
 
-    public Trip(long placeid, String name, String description, Calendar startDate, Calendar endDate) {
+    public Trip(long id, long placeid, String name, String description, Calendar startDate, Calendar endDate) {
+        this.id = id;
         this.placeid = placeid;
         this.name = name;
         this.description = description;
